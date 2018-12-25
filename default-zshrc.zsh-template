@@ -96,3 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Fix Home and End key
+bindkey "\033[1~" beginning-of-line
+bindkey "\033[4~" end-of-line
