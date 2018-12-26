@@ -97,6 +97,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias psg="ps -ef | grep -v grep| grep $1 "
+alias nsg="netstat -nalp | grep -v grep| grep $1"
+alias nslg="netstat -nalp | grep LISTEN | grep -v grep| grep $1"
+
 # Fix Home and End key
 bindkey "\033[1~" beginning-of-line
 bindkey "\033[4~" end-of-line
