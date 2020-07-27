@@ -13,6 +13,7 @@ git clone git://github.com/wting/autojump.git
 cd autojump
 ./install.py
 
+cd ..
 cp default-zshrc.zsh-template ~/.zshrc
 chsh -s /bin/zsh $(id -un)
 zsh
