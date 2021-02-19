@@ -1,5 +1,5 @@
 #!/bin/sh
-yum -y install zsh git wget
+yum -y install zsh git wget neofetch lsd
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 
 # oh-my-zsh plugins
